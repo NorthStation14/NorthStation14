@@ -1063,3 +1063,32 @@
       whitelist:
         components:
           - Cartridge
+
+- type: entity
+  parent: BasePDA
+  id: WatchPDA
+  name: Space Watch
+  description: PDA variant in the form of a watch.
+  components:
+  - type: Pda
+    state: pda
+
+- type: entity
+  parent: BasePDA
+  id: SmartPhonePDA
+  name: SmartPhone
+  description: Pda variant in the form of a SmartPhone.
+  components:
+  - type: Pda
+    state: pda
+
+- type: entity
+  parent: BasePDA
+  id: TabletPDA
+  name: Tablet
+  description: PDA variant in the form of a tablet.
+  components:
+  - type: Pda
+    state: pda
+  
+
