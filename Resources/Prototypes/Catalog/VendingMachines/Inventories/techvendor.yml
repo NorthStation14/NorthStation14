@@ -1,0 +1,6 @@
+- type: vendingMachineInventory
+  id: TechVendorInventory
+  startingInventory:
+    WatchPDA: 10
+    SmartPhonePDA: 10
+    TabletPDA: 10

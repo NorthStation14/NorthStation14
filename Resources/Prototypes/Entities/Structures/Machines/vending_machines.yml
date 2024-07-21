@@ -2133,3 +2133,16 @@
   - type: AccessReader
     access: [["SyndicateAgent"]]
 
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineTechVendor
+  name: Tech Vendor
+  description: Sells the newst,coolest tech on the market.
+  components:
+  - type: VendingMachine
+    pack: TechVendorInventory
+    offstate: off
+    brokenState: broken
+    normalState: normal
+    denyState: deny
+    ejectDelay: 2
