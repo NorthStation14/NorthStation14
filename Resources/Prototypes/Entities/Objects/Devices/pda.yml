@@ -1090,5 +1090,20 @@
   components:
   - type: Pda
     state: pda
-  
+
+- type: entity
+  parent: BasePDA
+  id: PlungerPDA
+  name: PlunDA
+  description: This smells weird.
+  components:
+  - type: Tag
+    tags:
+      - Plunger
+  - type: Pda
+    state: plunger-pda
+  - type: Icon
+    state: plunger-pda
+  - type: Plunger
+    
 
