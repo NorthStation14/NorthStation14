@@ -1101,6 +1101,7 @@
     tags:
       - Plunger
   - type: Pda
+    id: JanitorIDCard
     state: plunger-pda
   - type: Icon
     state: plunger-pda
